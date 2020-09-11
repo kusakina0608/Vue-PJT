@@ -1,21 +1,21 @@
 {
   "development": {
-    "username": "hejin",
-    "password": "hejinchang1!",
+    "username": "dev",
+    "password": "dev",
     "database": "zzubang",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "hejin",
-    "password": "hejinchang1!",
+    "username": "dev",
+    "password": "dev",
     "database": "zzubang",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "hejin",
-    "password": "hejinchang1!",
+    "username": "dev",
+    "password": "dev",
     "database": "zzubang",
     "host": "127.0.0.1",
     "dialect": "mysql"
