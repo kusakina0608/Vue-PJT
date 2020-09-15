@@ -7,6 +7,5 @@ LogForMe/backend/uploads/*
 LogForMe/backend/node_modules/*
 LogForMe/frontend/node_modules/*
 
-Portfolio/backend/tmp/*
 Portfolio/backend/node_modules/*
 Portfolio/frontend/node_modules/*
