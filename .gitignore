@@ -2,6 +2,9 @@ DaeBang/backend/uploads/*
 DaeBang/backend/node_modules/*
 DaeBang/frontend/node_modules/*
 
+Daeflix/backend/node_modules/*
+Daeflix/frontend/node_modules/*
+
 LogForMe/backend/logs/*
 LogForMe/backend/uploads/*
 LogForMe/backend/node_modules/*
