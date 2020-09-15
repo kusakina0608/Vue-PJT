@@ -5,3 +5,6 @@ DaeBang/frontend/node_modules/*
 
 LogForMe/backend/logs/*
 LogForMe/backend/uploads/*
+LogForMe/backend/node_modules/*
+LogForMe/backend/tmp/*
+LogForMe/frontend/node_modules/*
