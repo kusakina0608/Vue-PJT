@@ -2,9 +2,10 @@ DaeBang/backend/uploads/*
 DaeBang/backend/node_modules/*
 DaeBang/frontend/node_modules/*
 
-
 LogForMe/backend/logs/*
 LogForMe/backend/uploads/*
 LogForMe/backend/node_modules/*
-LogForMe/backend/tmp/*
 LogForMe/frontend/node_modules/*
+
+Portfolio/backend/node_modules/*
+Portfolio/frontend/node_modules/*
