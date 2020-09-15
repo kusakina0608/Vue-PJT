@@ -1,6 +1,6 @@
 DaeBang/backend/uploads/*
-DaeBang/backend/tmp/*
-DaeBang/frontend/tmp/*
+DaeBang/backend/node_modules/*
+DaeBang/frontend/node_modules/*
 
 
 LogForMe/backend/logs/*
