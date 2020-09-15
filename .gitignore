@@ -1,4 +1,7 @@
 DaeBang/backend/uploads/*
+DaeBang/backend/tmp/*
+DaeBang/frontend/tmp/*
+
 
 LogForMe/backend/logs/*
 LogForMe/backend/uploads/*

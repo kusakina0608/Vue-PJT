@@ -47,6 +47,5 @@ p{
     padding-top: 115px;
     padding-bottom: 113px;
     letter-spacing: -0.8px;
-    color
 }
 </style>

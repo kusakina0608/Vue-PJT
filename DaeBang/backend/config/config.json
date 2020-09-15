@@ -2,21 +2,21 @@
   "development": {
     "username": "dev",
     "password": "dev",
-    "database": "zzubang",
+    "database": "vue_pjt_daebang",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "dev",
     "password": "dev",
-    "database": "zzubang",
+    "database": "vue_pjt_daebang",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "dev",
     "password": "dev",
-    "database": "zzubang",
+    "database": "vue_pjt_daebang",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
