@@ -52,6 +52,7 @@ export default {
                 alert("아이디 및 비밀번호를 입력해주세요.");
             }
             this.SET_LOGIN_MODAL(false);
+            location.href = "http://localhost:8080/";
         },
         ...mapMutations(["SET_LOGIN_MODAL", "SET_LOGIN_DATA"])
     }
