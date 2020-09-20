@@ -49,6 +49,7 @@ export default {
       sessionStorage.removeItem("id");
       sessionStorage.removeItem("name");
       sessionStorage.clear();
+      location.href = "http://localhost:8080/";
     }
   }
 }
