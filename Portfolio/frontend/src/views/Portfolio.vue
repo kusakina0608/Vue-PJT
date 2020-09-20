@@ -12,7 +12,7 @@
           <a :href="project.githubURL" target="_blank" class="btn btn-primary">Github Repository</a>
         </div>
       </div>
-      <div class="col mt-2">
+      <div v-if="loginData.id" class="col mt-2">
         <div class="card">
           <div v-if="uploadFile" class="file-close-button" @click="fileDeleteButton" :name="uploadFile.number">x</div>
           <img v-if="uploadFile" :src="uploadFile.preview" class="card-img-top" alt="...">
@@ -33,6 +33,7 @@
 </template>
 
 <script>
+import {mapState, mapMutations} from "vuex";
 import {portfolioAPI} from "../utils/axios"
 export default {
   data(){
@@ -44,6 +45,9 @@ export default {
       githubURL: ""
     }
   },
+  computed:{
+    ...mapState(["modal", "loginData"])
+  },
   async mounted(){
     const {data} = await portfolioAPI.getList(this.$route.query.search);
     for(const li of data.portfolio){
@@ -53,6 +57,7 @@ export default {
       });
       this.portfolio.push({...li, imgURL: window.URL.createObjectURL(blob)});
     }
+    console.log(this.portfolio);
   },
   methods: {
     imageUpload(){
@@ -73,6 +78,7 @@ export default {
         formData.append("image", this.uploadFile.file);
         formData.append("repository", this.githubURL);
         const {data} = await portfolioAPI.post(formData);
+        location.href = "http://localhost:8080/portfolio";
       }else{
         alert("포트폴리오 제목, 내용, 저장소 URL을 입력해주세요.");
       }
